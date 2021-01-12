@@ -103,10 +103,10 @@ const styles = StyleSheet.create({
 });
 
 const areEqual = (prevProps: Props, nextProps: Props): boolean => {
-  const { close: { value: prevClosePrice } } = prevProps
-  const { close: { value: nextClosePrice } } = nextProps
+  const { close: { value: prevClosePrice } } = prevProps;
+  const { close: { value: nextClosePrice } } = nextProps;
 
-  return prevClosePrice === nextClosePrice
-}
+  return prevClosePrice === nextClosePrice;
+};
 
 export default memo(CryptoPrice, areEqual);

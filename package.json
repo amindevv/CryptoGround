@@ -15,6 +15,7 @@
     "@react-navigation/native": "^5.8.10",
     "@react-navigation/stack": "^5.12.8",
     "fp-ts": "^2.9.3",
+    "intl": "^1.2.5",
     "io-ts": "^2.2.13",
     "metro-react-native-babel-transformer": "^0.64.0",
     "react": "16.13.1",
